@@ -12,8 +12,8 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="./index.php">Revenir à la page d'accueil</a>
-    <form action="./result.php" method="post">
+    <a href="./index.html">Revenir à la page d'accueil</a>
+    <form action="./result.php" method="get">
         <div class="block1 block padding">
             <div class="element">
                 <p>Homme</p>
