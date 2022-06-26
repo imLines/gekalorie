@@ -1,0 +1,132 @@
+.info{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+   
+
+.linkContainer{
+    height: 4rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.fb{
+    background-image: url(./img/logoFB.png);
+}
+.insta{
+    background-image: url(./img/logoINSTA.png);
+}
+.git{
+    background-image: url(./img/logoGIT.png);
+}
+.twitter{
+    background-image: url(./img/logoTWITTER.webp);
+}
+
+
+.link{
+    width: 4rem;
+    height: 4rem;
+    background-image: cover;
+    background-size: cover;
+    background-position: center;
+    opacity: 60%;
+}
+.link:hover{
+    opacity: 100%;
+}
+
+
+
+.logo{
+    background-image: url(./img/Gekalorie.png);
+    background-position: center;
+    background-size:cover;
+    background-image: cover;
+    height: 20rem;
+    width: 20rem;
+}
+.explain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonGo{
+    border: black solid 0.2rem;
+    padding: 2rem;
+    border-radius: 200%;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+.buttonGo:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+/* Formulaire */
+
+.block1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.element{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.block2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blockRow{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.block{
+    border-bottom: solid grey 0.1rem;
+}
+.padding{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.submit{
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+.submit:hover{
+    background-color: white;
+    color: black;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.error{
+    background-color: red;
+    color: white;
+    font-weight: 800;
+}
+
+footer{
+    border-top: solid 4px black;
+}
