@@ -89,7 +89,7 @@ if($sexe == "homme"){
     <div class="center block">
         <p>Votre Métabolisme à besoin de <?php echo $bmr ?> calories pour fonctionner.</p>
         <p>Votre Métabolisme à besoin de <?php echo $maintien ?> calories pour maintenir votre poids en fonction de votre activitée.</p>
-        <p>Pour votre objectif, vous devriez manger <?php $calories ?> calories pour y parvenir</p>
+        <p>Pour votre objectif, vous devriez manger <?php echo $calories ?> calories pour y parvenir</p>
     </div>
     <div class="center block">
         <p>Lipides : Vous devrez consommer <?php echo $caloriesProtein ?> calories soit <?php echo $proteinG ?> grammes</p>

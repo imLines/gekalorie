@@ -1,6 +1,3 @@
-<?php
-
-?>
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -13,7 +10,7 @@
 </head>
 <body>
     <a href="./index.html">Revenir à la page d'accueil</a>
-    <form action="./result.php" method="get">
+    <form action="./result.php" method="post">
         <div class="block1 block padding">
             <div class="element">
                 <p>Homme</p>
